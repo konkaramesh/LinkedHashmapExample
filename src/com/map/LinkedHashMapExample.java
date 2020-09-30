@@ -32,6 +32,7 @@ public class LinkedHashMapExample {
 	for (Map.Entry<String, Integer> entry : map.entrySet()) {
 		System.out.println("[Key] : " + entry.getKey() + " [Value] : " + entry.getValue());
 	}
+	//for java 1.8 version
 	  map.forEach((key, value) -> System.out.println("[Key] : " + key + " [Value] : " + value));
 	}
 	}
